@@ -1,0 +1,349 @@
+<!doctype html>
+<html lang="en">
+	
+	<head>
+		<meta charset="utf-8">
+		<!-- https://github.com/hakimel/reveal.js -->
+		<title>reveal.js - The HTML Presentation Framework</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.min.css">
+		<link rel="stylesheet" href="css/theme/default.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+		<script>
+			if( window.location.search.match( /print-pdf/gi ) ) {
+				var link = document.createElement( 'link' );
+				link.rel = 'stylesheet';
+				link.type = 'text/css';
+				link.href = 'css/print/pdf.css';
+				document.getElementsByTagName( 'head' )[0].appendChild( link );
+			}
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h1>Open source wereld</h1>
+					<img src="img/opensourceinitiative.png"/>
+					<h3></h3>
+					<p>
+						<small>Door Wim Rademaker | http://google.com/+WimRademaker</small>
+					</p>
+				</section>
+
+				<section data-transition="linear" data-background="#8c4738" data-background-transition="slide">
+					<section>
+						<h2>Geshiedenis (jakkes)</h2>
+					</section>
+					<section>
+						<h2>free software movement / GNU project</h2>
+						<p>gestart in 1983 door Richard Stallman<br />
+						<img width="300px" src="img/Richard_Stallman_at_Pittsburgh_University.jpg"/>
+					</p>
+					</section>
+					<section>
+						<h2>Linux kernel 0.12</h2>
+					<p>
+						vrijgegeven door Linus Torvalds<br />een open source licentie GPL in 1992<br />
+						"De toekomst is om alles te open sourcen"<br/>
+						<img width="300px" src="img/Linus_Torvalds.jpeg"/>
+					</p>
+					</section>
+					<section>
+						<h2>15 August 1997</h2>
+					<p>
+						GNOME desktop<br />
+						<img width="600px" src="img/gnome_old.png"/>
+					</p>
+					</section>
+					<section>
+						<h2>april 1998</h2>
+					<p>
+						Open Source summit<br />
+						geboorte van de opensourcebeweging
+					</p>
+					</section>	
+					<section>
+						<h2>15 Januari 2001</h2>
+					<p>
+						Start van wikipedia<br />
+					</p>
+					</section>	
+					<section>
+						<h2>2005</h2>
+						<p>
+						Geboorte van ARDUINO<br />
+						<img width="400px" src="img/arduino.jpg"/>
+						</p>
+					</section>
+					<section>
+						<h2>Crowdfunding</h2>
+						<ul>
+							<li>ChipIn (2005)</li>
+							<li>EquityNet (2005)</li>
+							<li>Pledgie (2006)</li>
+							<li>Sellaband (2006)</li>
+							<li>IndieGoGo (2008)</li>
+							<li>GiveForward (2008)</li>
+							<li>FundRazr (2009)</li>
+							<li>Kickstarter (2009)</li>
+							<li>RocketHub (2009)</li>
+							<li>Fundly (2009)</li>
+							<li>GoFundMe (2010)</li>
+							<li>Microventures (2010)</li>
+							<li>Fundageek (2011)</li>
+						</ul>
+					</section>	
+					<section>
+						<h2>Maart 2006</h2>
+					<p>
+						UltraSPARC T1  microprocessor werd open source gemaakt door Sun Microsystems<br />
+						<img width="400px" src="img/openspark.jpg"/>
+					</p>
+					</section>					
+					<section>
+						<h2>2006</h2>
+						<p>
+							Start ontwikkeling Raspberry PI<br />
+							29 Februari 2012 start verkoop Raspberry PI<br/>
+							<img width="400px" src="img/Raspberry_Pi_-_Model_A.jpg"/>
+						</p>
+					</section>					
+				</section>
+				<section data-transition="linear" data-background="#A11738">
+					<section>
+						<h2>Dat is mooi...</h2>
+						<p>
+							Maar wat is nu open source?
+						</p>
+					</section>
+					<section>
+						<h1>OPEN SOURCE<br/>=<br/>Vrijheid</h1>
+					</section>
+					<section data-transition="linear" data-background="#data-transition="linear" data-background="#E10012">
+						<img src="img/COCACOLA.jpg"/>
+					</section>
+					<section>
+						<h2>OpenCola</h2>
+						<p>
+							http://colawp.com<br/>
+							http://opensoda.org<br/>
+							<img src="img/opencola.jpg" width="400px"/>
+						</p>
+					</section>
+					<section>
+						<h2>Fork bestaande code</h2>
+						<img width="400px" src="img/fork.png"/>
+					</section>
+				</section>
+				<section data-transition="linear" data-background="#F34F1A">
+					<section>
+						<h2>Maar wat is er mis met gesloten code?<br/>(proprietary code)</h2>
+					</section>
+					<section id="fragments1">
+						<h2>Het jammere van gesloten code is:</h2>
+						<ol>
+							<li class="fragment"><strong>Je kunt er niets van leren</strong> (behalve reverse engineren)</li>
+							<li class="fragment"><strong>Het is niet te controleren wat er met je data gebeurt</strong></li>
+							<li class="fragment"><strong>Het is niet te delen</strong></li>
+							<li class="fragment"><strong>Het is niet her te gebruiken</strong></li>
+							<li class="fragment"><strong>Je bent geen beheerder maar een gebruiker</strong></li>
+						</ol>
+						<h2 class="fragment"><br/>Voorbeeld?</h2>					
+					</section>
+					<section id="fragments2">
+						<img class="fragment" src="img/windows8.jpg"/>
+					</section>
+					<section id="fragments3">
+						<img src="img/windows8.jpg" width="400px"/>
+						
+						<ol>
+							<li class="fragment"><strong>Je kunt er niets van leren</strong> (behalve reverse engineren)</li>
+							<li class="fragment"><strong>Het is niet te controleren wat er met je data gebeurt</strong></li>
+							<li class="fragment"><strong>Het is niet te delen</strong></li>
+							<li class="fragment"><strong>Het is niet her te gebruiken</strong></li>
+							<li class="fragment"><strong>Je bent geen beheerder maar een gebruiker</strong></li>
+						</ol>
+					</section>
+					<section>
+						<h2 class="fragment"><br/>Hoe dan wel?</h2>
+					</section>
+					<section>
+						<img src="img/ubuntu.png" width="1000px"/>
+					</section>
+					<section>
+						<img src="img/elementary.png" width="1000px"/>
+					</section>
+					<section>
+						<img src="img/linux_xp.png" width="1000px"/>
+					</section>
+					<section>
+						<img src="img/cinamon.jpg" width="1000px"/>
+					</section>
+					<section>
+						<img src="img/sourcecode_ubuntu.png" width="1000px"/>
+					</section>
+				</section>
+				<section data-transition="linear" data-background="#006ABC">
+					<section>
+						<h2>En hoe komt er nu brood op de plank?</h2>
+					</section>
+					<section>
+						<img src="img/redhat.png"/>
+						<p>> 10 Miljard dollar beurswaarde waarde</p>
+					</section>
+					<section>
+						<img width="400px" src="img/Raspberry_Pi_-_Model_A.jpg"/>
+						<h2>Raspberry pi</h2>
+						In 10 maanden 500,000 stuks verkocht == $17.5 miljoen omzet
+					</section>
+					<section>
+						<img width="600px" src="img/redhat2.png"/>
+					</section>
+					<section>
+						<img src="img/vacaturebank.png"/>
+					</section>
+				</section>
+				<section data-transition="linear" data-background="#46BF00">
+					<section>
+						<h2>Hoe veranderd het de toekomst</h2>
+					</section>	
+					<section>
+						<img src="img/philips.jpg"/>
+					</section>
+					<section>
+						<img width="600px" src="img/banker.jpg"/>
+					</section>
+					<section>
+						<img src="img/wisdomofcrowds.png"/>
+					</section>
+				</section>
+				<section data-transition="linear" data-background="#BC0000">
+					<section>
+						<h2>Voorbeeld?</h2>
+					</section>
+					<section>
+						<h2>Ultimaker</h2>
+						<img height="400px" src="img/Ultimaker2.jpg"/>
+					</section>
+					<section>
+						<img src="img/ultimakershop.png"/>
+					</section>
+					<section>
+						<img width="1200px" src="img/ultimaker_source.png"/>
+					</section>
+					<section>
+						<img src="img/thingiverse.png"/>
+					</section>
+					<section>
+						<h2>Qin Wei</h2>
+						<img src="img/vonger.jpg"/>
+					</section>
+					<section>
+						<h2>20 PCB boards kosten samen $250</h2>
+					</section>
+					<section>
+						<ul>
+							<li class="fragment">5 maanden gewerkt aan het ontwerp</li>
+							<li class="fragment">Open software (Linux Openwrt)</li>
+							<li class="fragment">Maak hardware opensource</li>
+							<li class="fragment">Crowd funding Indiegogo</li>
+						</ul>
+					</section>
+					<section>
+						<img src="img/indiegogo.png"/>
+					</section>
+					<section>
+						<img src="img/vongerstl.png"/>
+					</section>
+					<section>
+						<h2>OSVEHICLE</h2>
+						<img style="background:#fff;" width:800px; src="img/osvehicle.png"/>
+					</section>
+					<section>
+						<h2>Local motors</h2>
+						<img width:800px; src="img/local-motors-strati-imts.jpg"/>
+					</section>
+				</section>
+				<section data-transition="linear">
+					<section>
+						<h2>Tot slot</h2>
+						<ul>
+							<li class="fragment">Opensource bestaat uit en door delen</li>
+							<li class="fragment">Internet deelt heel makkelijk</li>
+							<li class="fragment">Kom langs bij een fablab en deel kennis</li>
+						</ul>
+					</section>
+				</section>
+				<section>
+					<h2>Deze slides terug vinden?</h2>
+					<ul>
+						<li>Probeer de online editor  <a href="http://slid.es">http://slid.es</a></li>
+						<li>Source code op GitHub  <a href="https://github.com/hakimel/reveal.js">https://github.com/hakimel/reveal.js</a></li>
+						<li>Deze slides op GitHub  <a href="https://github.com/wimrademaker">https://github.com/wimrademaker</a></li>
+					</ul>
+				</section>
+				<section>
+					<h1>THE END</h1><br/>
+					<h2>http://google.com/+WimRademaker<br/><br/>wimrademaker@gmail.com</h2>
+				</section>
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Parallax scrolling
+				// parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+				// parallaxBackgroundSize: '2100px 900px',
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
